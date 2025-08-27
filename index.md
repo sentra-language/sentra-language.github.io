@@ -24,7 +24,7 @@ Sentra eliminates the complexity of building security tools by providing network
 
 ### Network Security Made Simple
 
-```javascript
+```sentra
 // Port scanner in 6 lines
 let target = "192.168.1.1"
 let results = port_scan(target, 1, 1000, "TCP")
@@ -38,7 +38,7 @@ for (let port in results) {
 
 ### HTTP APIs Without Frameworks
 
-```javascript
+```sentra
 // Complete web API server
 let server = http_server_create("127.0.0.1", 8080)
 

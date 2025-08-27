@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Reference
-nav_order: 3
+title: API Reference
+nav_order: 4
 has_children: true
 permalink: /reference/
 ---
 
-# Reference
+# API Reference
 {: .fs-9 }
 
 Complete technical reference for the Sentra programming language, standard library, and security modules.
