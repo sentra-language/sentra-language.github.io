@@ -18,16 +18,14 @@ Learn Sentra step by step with hands-on examples and practical exercises. Perfec
 
 Follow this recommended learning path to master Sentra:
 
-1. **[Installation](installation/)** - Get Sentra up and running on your system
-2. **[Your First Program](first-program/)** - Write and run your first Sentra program  
-3. **[Language Basics](language-basics/)** - Variables, data types, control flow, functions
-4. **[Standard Library](standard-library/)** - Built-in functions for strings, arrays, files, JSON
-5. **[Network Module](network-module/)** - TCP/UDP sockets, HTTP client/server, WebSockets
-6. **[Security Module](security-module/)** - Port scanning, SSL analysis, cryptography, vulnerability detection
-7. **[SIEM Module](siem-module/)** - Log analysis, threat detection, incident response  
-8. **[Concurrency](concurrency/)** - Parallel processing, connection pools, advanced patterns
-9. **[Project Management](project-management/)** - Creating and managing larger Sentra projects
-10. **[Real Examples](real-examples/)** - Complete applications and practical use cases
+1. **[Installation](/tutorial/installation)** - Get Sentra up and running on your system
+2. **[Your First Program](/tutorial/first-program)** - Write and run your first Sentra program  
+3. **[Language Basics](/tutorial/language-basics)** - Variables, data types, control flow, functions
+4. **[Standard Library](/tutorial/standard-library)** - Built-in functions for strings, arrays, files, JSON
+5. **[Network Programming](/tutorial/network-programming)** - Building network applications
+6. **[Network Module](/tutorial/network-module)** - TCP/UDP sockets, HTTP client/server, WebSockets
+7. **[Security Module](/tutorial/security-module)** - Port scanning, SSL analysis, cryptography
+8. **[Project Management](/tutorial/project-management)** - Creating and managing larger Sentra projects
 
 ## What You'll Learn
 
@@ -55,4 +53,4 @@ If you get stuck:
 
 ---
 
-Ready to start? Begin with [Installation](installation/)!
+Ready to start? Begin with [Installation](/tutorial/installation)!

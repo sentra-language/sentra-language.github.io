@@ -21,23 +21,23 @@ Complete technical reference for the Sentra programming language, standard libra
 
 Complete documentation of Sentra's syntax, grammar, and language features.
 
-[Language Reference](language/){: .btn .btn-outline .mr-2 }
-[Quick Reference](quick/){: .btn .btn-outline }
+[Language Reference](/reference/language){: .btn .btn-outline .mr-2 }
+[Quick Reference](/reference/quick){: .btn .btn-outline }
 
 ### Standard Library
 {: .text-delta }
 
 Detailed API documentation for all built-in functions and modules.
 
-[Standard Library](stdlib/){: .btn .btn-outline .mr-2 }
+[Standard Library](/reference/stdlib){: .btn .btn-outline .mr-2 }
 
 ## Quick Links
 
 | Topic | Description |
 |:------|:------------|
-| [Language Reference](language/) | Syntax, operators, control flow, functions |
-| [Standard Library](stdlib/) | Built-in functions, file I/O, string operations |
-| [Quick Reference](quick/) | Cheat sheet for common operations |
+| [Language Reference](/reference/language) | Syntax, operators, control flow, functions |
+| [Standard Library](/reference/stdlib) | Built-in functions, file I/O, string operations |
+| [Quick Reference](/reference/quick) | Cheat sheet for common operations |
 
 ## Need Help?
 

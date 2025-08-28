@@ -629,7 +629,7 @@ docker run -p 8080:8080 my-sentra-app
 {: .fs-6 .fw-300 }
 Congratulations! You've completed the Sentra tutorial. You now have the knowledge to build security tools, network applications, and automation scripts with Sentra.
 
-[← Previous: Security Module](../security-module/){: .btn .btn-outline .mr-2 }
+[← Previous: Security Module](/tutorial/security-module){: .btn .btn-outline .mr-2 }
 [View Examples on GitHub →](https://github.com/sentra-language/sentra/tree/main/examples){: .btn .btn-primary }
 
 ---
@@ -639,6 +639,6 @@ Congratulations! You've completed the Sentra tutorial. You now have the knowledg
 Now that you've completed the tutorial:
 
 - **[Browse Examples](https://github.com/sentra-language/sentra/tree/main/examples)** - See real-world Sentra applications
-- **[Language Reference](../../reference/language/)** - Complete technical documentation  
+- **[Language Reference](/reference/language)** - Complete technical documentation  
 - **[Join the Community](https://github.com/sentra-language/sentra)** - Contribute or get help
-- **[Quick Reference](../../reference/quick/)** - Keep handy while coding
+- **[Quick Reference](/reference/quick)** - Keep handy while coding

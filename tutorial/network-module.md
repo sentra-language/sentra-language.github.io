@@ -412,8 +412,8 @@ Now that you understand network programming:
 {: .fs-6 .fw-300 }
 With network programming mastered, let's explore Sentra's built-in security tools and vulnerability scanning capabilities.
 
-[← Previous: Standard Library](../standard-library/){: .btn .btn-outline .mr-2 }
-[Next: Security Module →](../security-module/){: .btn .btn-primary }
+[← Previous: Network Programming](/tutorial/network-programming){: .btn .btn-outline .mr-2 }
+[Next: Security Module →](/tutorial/security-module){: .btn .btn-primary }
 
 ---
 

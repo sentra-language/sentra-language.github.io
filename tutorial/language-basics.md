@@ -507,15 +507,15 @@ display_user(null)
 
 Now that you understand Sentra's data types:
 
-1. [Learn about the Standard Library](../standard-library/) - Built-in functions for common tasks
-2. [Network Programming](../network-module/) - TCP/UDP, HTTP, WebSocket capabilities
-3. [Security Module](../security-module/) - Security tools and vulnerability scanning
-4. [Read the Language Reference](../../reference/language/) - Complete syntax guide
+1. [Learn about the Standard Library](/tutorial/standard-library) - Built-in functions for common tasks
+2. [Network Programming](/tutorial/network-module) - TCP/UDP, HTTP, WebSocket capabilities
+3. [Security Module](/tutorial/security-module) - Security tools and vulnerability scanning
+4. [Read the Language Reference](/reference/language) - Complete syntax guide
 
 ---
 
 {: .fs-6 .fw-300 }
 Now that you understand Sentra's data types, let's explore the built-in functions in the Standard Library.
 
-[← Previous: Your First Program](../first-program/){: .btn .btn-outline .mr-2 }
-[Next: Standard Library →](../standard-library/){: .btn .btn-primary }
+[← Previous: Your First Program](/tutorial/first-program){: .btn .btn-outline .mr-2 }
+[Next: Standard Library →](/tutorial/standard-library){: .btn .btn-primary }

@@ -557,8 +557,8 @@ Now that you understand security tools:
 {: .fs-6 .fw-300 }
 With security tools mastered, let's learn how to structure and manage larger Sentra projects.
 
-[← Previous: Network Module](../network-module/){: .btn .btn-outline .mr-2 }
-[Next: Project Management →](../project-management/){: .btn .btn-primary }
+[← Previous: Network Module](/tutorial/network-module){: .btn .btn-outline .mr-2 }
+[Next: Project Management →](/tutorial/project-management){: .btn .btn-primary }
 
 ---
 

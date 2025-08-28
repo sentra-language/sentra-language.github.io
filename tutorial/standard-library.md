@@ -258,18 +258,18 @@ if (results) {
 
 Now that you understand Sentra's standard library:
 
-- [Network Module](../network-module/) - TCP/UDP, HTTP, WebSocket programming
-- [Security Module](../security-module/) - Security tools and cryptography
-- [Project Management](../project-management/) - Managing larger projects
-- [Language Reference](../../reference/language/) - Complete syntax documentation
+- [Network Module](/tutorial/network-module) - TCP/UDP, HTTP, WebSocket programming
+- [Security Module](/tutorial/security-module) - Security tools and cryptography
+- [Project Management](/tutorial/project-management) - Managing larger projects
+- [Language Reference](/reference/language) - Complete syntax documentation
 
 ---
 
 {: .fs-6 .fw-300 }
 Now that you know the standard library, let's learn about Sentra's powerful network programming capabilities.
 
-[← Previous: Language Basics](../language-basics/){: .btn .btn-outline .mr-2 }
-[Next: Network Module →](../network-module/){: .btn .btn-primary }
+[← Previous: Language Basics](/tutorial/language-basics){: .btn .btn-outline .mr-2 }
+[Next: Network Programming →](/tutorial/network-programming){: .btn .btn-primary }
 
 ---
 

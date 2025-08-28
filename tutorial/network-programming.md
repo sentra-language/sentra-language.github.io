@@ -405,7 +405,15 @@ http_server_start(server["id"])
 
 ## Next Steps
 
-- Build a [Security Scanner](/examples/security-scanner)
-- Create a [REST API](/examples/rest-api)
-- Implement a [Chat Application](/examples/chat-app)
-- Develop a [Network Monitor](/examples/network-monitor)
+- Build a Security Scanner
+- Create a REST API
+- Implement a Chat Application
+- Develop a Network Monitor
+
+---
+
+{: .fs-6 .fw-300 }
+Continue to learn about advanced network features with the Network Module.
+
+[← Previous: Standard Library](/tutorial/standard-library){: .btn .btn-outline .mr-2 }
+[Next: Network Module →](/tutorial/network-module){: .btn .btn-primary }
