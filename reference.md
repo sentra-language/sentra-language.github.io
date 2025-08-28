@@ -42,7 +42,7 @@ Detailed API documentation for all built-in functions and modules.
 ## Need Help?
 
 - Browse [Examples](https://github.com/sentra-language/sentra/tree/main/examples)
-- Check the [Tutorial]({{ site.baseurl }}/tutorial/) for guided learning
+- Check the [Tutorial](/tutorial/) for guided learning
 - Open an [Issue on GitHub](https://github.com/sentra-language/sentra/issues)
 
 # Sentra Language Reference
@@ -51,66 +51,11 @@ This reference manual describes the Sentra programming language. It describes th
 
 ## Table of Contents
 
-### 1. [Lexical Analysis](/reference/lexical/)
-- [Tokens](/reference/lexical/#tokens)
-- [Comments](/reference/lexical/#comments)
-- [Identifiers](/reference/lexical/#identifiers)
-- [Keywords](/reference/lexical/#keywords)
-- [Literals](/reference/lexical/#literals)
-- [Operators](/reference/lexical/#operators)
+### Quick Links
+- [Language Reference](/reference/language/) - Complete language syntax
+- [Standard Library](/reference/stdlib/) - Built-in functions
+- [Quick Reference](/reference/quick/) - Cheat sheet
 
-### 2. [Data Model](/reference/datamodel/)
-- [Objects and Types](/reference/datamodel/#objects)
-- [Numbers](/reference/datamodel/#numbers)
-- [Strings](/reference/datamodel/#strings)
-- [Arrays](/reference/datamodel/#arrays)
-- [Maps](/reference/datamodel/#maps)
-- [Functions](/reference/datamodel/#functions)
-- [Null](/reference/datamodel/#null)
-
-### 3. [Expressions](/reference/expressions/)
-- [Arithmetic Operations](/reference/expressions/#arithmetic)
-- [Comparison Operations](/reference/expressions/#comparison)
-- [Logical Operations](/reference/expressions/#logical)
-- [Function Calls](/reference/expressions/#calls)
-- [Indexing](/reference/expressions/#indexing)
-- [Lambda Expressions](/reference/expressions/#lambda)
-
-### 4. [Statements](/reference/statements/)
-- [Simple Statements](/reference/statements/#simple)
-- [Assignment](/reference/statements/#assignment)
-- [Control Flow](/reference/statements/#control-flow)
-- [Loops](/reference/statements/#loops)
-- [Function Definitions](/reference/statements/#functions)
-- [Import Statements](/reference/statements/#import)
-
-### 5. [Functions](/reference/functions/)
-- [Function Definitions](/reference/functions/#definitions)
-- [Parameters](/reference/functions/#parameters)
-- [Return Values](/reference/functions/#return)
-- [Closures](/reference/functions/#closures)
-- [Lambda Functions](/reference/functions/#lambda)
-- [Built-in Functions](/reference/functions/#builtin)
-
-### 6. [Modules](/reference/modules/)
-- [Module System](/reference/modules/#system)
-- [Import Mechanism](/reference/modules/#import)
-- [Export Mechanism](/reference/modules/#export)
-- [Module Search Path](/reference/modules/#search)
-- [Standard Modules](/reference/modules/#standard)
-
-### 7. [Error Handling](/reference/errors/)
-- [Exceptions](/reference/errors/#exceptions)
-- [Try-Catch-Finally](/reference/errors/#try-catch)
-- [Throwing Errors](/reference/errors/#throw)
-- [Error Types](/reference/errors/#types)
-- [Stack Traces](/reference/errors/#traces)
-
-### 8. [Concurrency](/reference/concurrency/)
-- [Goroutines](/reference/concurrency/#goroutines)
-- [Channels](/reference/concurrency/#channels)
-- [Select Statement](/reference/concurrency/#select)
-- [Synchronization](/reference/concurrency/#sync)
 
 ## Language Grammar
 
@@ -228,13 +173,5 @@ Core modules included:
 ## See Also
 
 - [Tutorial](/tutorial/) - Learn Sentra step by step
-- [Library Reference](/library/) - Standard library documentation
-- [How-to Guides](/guide/) - Practical recipes
-- [Examples](https://github.com/sentra-language/examples) - Sample code
-
----
-
-<div class="reference-nav">
-    <a href="/" class="nav-home">← Home</a>
-    <a href="/reference/lexical/" class="nav-next">Lexical Analysis →</a>
-</div>
+- [Examples](/examples/) - Code examples
+- [GitHub Repository](https://github.com/sentra-language/sentra) - Source code

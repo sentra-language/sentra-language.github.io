@@ -328,9 +328,9 @@ Check out the `examples/` directory:
 - **`examples/advanced/`** - Advanced features
 
 ### 2. Read Documentation
-- [**Language Reference**](language-reference/) - Complete syntax guide
-- [**Standard Library**](stdlib/) - All built-in functions
-- [**Security Modules**](security-modules/) - Security capabilities
+- [**Language Reference**](/reference/language/) - Complete syntax guide
+- [**Standard Library**](/reference/stdlib/) - All built-in functions
+- [**Tutorial**](/tutorial/) - Step-by-step learning path
 
 ### 3. Build Something
 Try building:
