@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Language Reference
-parent: Reference
+parent: API Reference
 nav_order: 1
 ---
 

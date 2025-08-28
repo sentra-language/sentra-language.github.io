@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Standard Library
-parent: Reference
+parent: API Reference
 nav_order: 2
 ---
 
