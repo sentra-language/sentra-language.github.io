@@ -79,7 +79,8 @@ log("Security API running at http://127.0.0.1:8080")
 | **Security Functions** | Port scanning, SSL analysis, vulnerability detection |
 | **Modern Syntax** | Clean, readable syntax familiar to JavaScript/Python developers |
 | **Single Binary** | No dependencies, runs anywhere |
-| **High Performance** | Optimized virtual machine with fast execution |
+| **JIT Compilation** | Function and loop JIT for near-native performance |
+| **141+ Stdlib Functions** | Comprehensive standard library for security and networking |
 
 ---
 

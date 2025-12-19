@@ -190,13 +190,111 @@ analyze_logs("/var/log/auth.log")
 
 ---
 
+## Algorithms
+
+Sentra includes 40+ classic algorithm implementations demonstrating the language's capabilities.
+
+### Two Sum (Hash Table)
+
+```sentra
+fn twoSum(nums, target) {
+    let seen = {}
+    for (let i in range(0, len(nums))) {
+        let complement = target - nums[i]
+        if (seen[str(complement)] != nil) {
+            return [seen[str(complement)], i]
+        }
+        seen[str(nums[i])] = i
+    }
+    return []
+}
+
+log(twoSum([2, 7, 11, 15], 9))  // [0, 1]
+```
+
+### Quick Sort
+
+```sentra
+fn quickSort(arr, low, high) {
+    if (low < high) {
+        let pivot = arr[high]
+        let i = low - 1
+
+        for (let j in range(low, high)) {
+            if (arr[j] <= pivot) {
+                i = i + 1
+                let temp = arr[i]
+                arr[i] = arr[j]
+                arr[j] = temp
+            }
+        }
+
+        let temp = arr[i + 1]
+        arr[i + 1] = arr[high]
+        arr[high] = temp
+        let pi = i + 1
+
+        quickSort(arr, low, pi - 1)
+        quickSort(arr, pi + 1, high)
+    }
+    return arr
+}
+
+let arr = [64, 34, 25, 12, 22, 11, 90]
+log(quickSort(arr, 0, len(arr) - 1))  // [11, 12, 22, 25, 34, 64, 90]
+```
+
+### Dynamic Programming (Coin Change)
+
+```sentra
+fn coinChange(coins, amount) {
+    let dp = [amount + 1]
+    for (let i in range(0, amount + 1)) {
+        dp[i] = amount + 1
+    }
+    dp[0] = 0
+
+    for (let i in range(1, amount + 1)) {
+        for (let coin in coins) {
+            if (coin <= i && dp[i - coin] + 1 < dp[i]) {
+                dp[i] = dp[i - coin] + 1
+            }
+        }
+    }
+
+    if (dp[amount] > amount) {
+        return -1
+    }
+    return dp[amount]
+}
+
+log(coinChange([1, 2, 5], 11))  // 3 (5+5+1)
+```
+
+### Algorithm Categories
+
+The full [leetcode.sn](https://github.com/sentra-language/sentra/blob/main/examples/algorithms/leetcode.sn) includes:
+
+| Category | Algorithms |
+|:---------|:-----------|
+| **Hash Tables** | Two Sum, Contains Duplicate, Single Number |
+| **Two Pointers** | Container With Most Water, Trapping Rain Water |
+| **Binary Search** | Search Insert, Sqrt(x), Find Min in Rotated Array |
+| **Dynamic Programming** | Climbing Stairs, House Robber, Coin Change, LIS |
+| **Greedy** | Jump Game, Best Time to Buy/Sell Stock |
+| **Arrays** | Move Zeroes, Rotate Array, Product Except Self |
+| **Math** | Palindrome, Happy Number, Power of Two, GCD |
+| **Sorting** | Quick Sort, Merge Sorted Arrays |
+
+---
+
 ## More Examples
 
 Find comprehensive examples in the [GitHub repository](https://github.com/sentra-language/sentra/tree/main/examples):
 
 - **Security**: Vulnerability scanners, penetration testing tools
 - **Networking**: TCP/UDP servers, HTTP clients, WebSocket applications
-- **Algorithms**: Sorting, searching, cryptography implementations
+- **Algorithms**: 40+ LeetCode problems with solutions
 - **System**: File operations, process management, OS interaction
 
 [View All Examples on GitHub →](https://github.com/sentra-language/sentra/tree/main/examples){: .btn .btn-primary }

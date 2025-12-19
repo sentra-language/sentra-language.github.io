@@ -29,13 +29,13 @@ Complete reference for Sentra's syntax, operators, control structures, and langu
 
 ## Introduction
 
-Sentra is a security-focused programming language with a stack-based virtual machine. It combines simplicity with powerful security capabilities, making it ideal for security automation, compliance checking, and defensive security tools.
+Sentra is a security-focused programming language with an optimized register-based virtual machine. It combines simplicity with powerful security capabilities, making it ideal for security automation, compliance checking, and defensive security tools.
 
 ### Design Principles
 - **Security-First**: Built-in security functions and modules
 - **Simple Syntax**: Easy to learn and write
-- **Memory Safe**: Automatic memory management
-- **Fast Execution**: Optimized VM with JIT-ready architecture
+- **Memory Safe**: Automatic memory management with NaN-boxing
+- **High Performance**: Register-based VM with JIT compilation for functions and hot loops
 
 ## Basic Syntax
 
