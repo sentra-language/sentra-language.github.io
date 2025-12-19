@@ -7,7 +7,7 @@ nav_order: 2
 
 # Sentra Standard Library Reference
 
-Complete reference for all built-in functions in Sentra.
+Complete reference for all 141+ built-in functions in Sentra. Every function is fully implemented with production-ready code—no stubs or placeholders.
 
 ## Table of Contents
 

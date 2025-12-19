@@ -80,7 +80,7 @@ log("Security API running at http://127.0.0.1:8080")
 | **Modern Syntax** | Clean, readable syntax familiar to JavaScript/Python developers |
 | **Single Binary** | No dependencies, runs anywhere |
 | **JIT Compilation** | Function and loop JIT for near-native performance |
-| **141+ Stdlib Functions** | Comprehensive standard library for security and networking |
+| **141+ Stdlib Functions** | Fully implemented standard library—no stubs, all production-ready |
 
 ---
 
